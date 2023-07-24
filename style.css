@@ -313,9 +313,9 @@ html {
     }
 
     /* May delete later */
-    .top-parallax, .middle-parallax, .bottom-parallax{
+    /* .top-parallax, .middle-parallax, .bottom-parallax{
         background-image: none;
-    }
+    } */
 
     .top-parallax-mobile, .middle-parallax-mobile, .bottom-parallax-mobile{
         background-image: url('images/top-parallax.avif');
@@ -336,10 +336,11 @@ html {
         flex-direction: row-reverse;
     }
 
-    /* May delete later */
+    /* May delete later
     .top-parallax-mobile, .middle-parallax-mobile, .bottom-parallax-mobile{
         display:none;
-    }
+    } */
+    
     .about-me{
         display: flex;
         flex-direction: column;
