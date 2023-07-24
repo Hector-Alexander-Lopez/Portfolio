@@ -1,0 +1,638 @@
+/* CODEBASE */
+
+html {
+    box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+body,
+h3 {
+    font-family: "Lato", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    background-color: black;
+}
+
+/* Create a Parallax/Background Scrolling Effect */
+.top-parallax, .middle-parallax, .bottom-parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.top-parallax {
+    background-image: url("images/top-parallax.avif");
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.middle-parallax {
+    background-image: url("images/middle-parallax.avif");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bottom-parallax {
+    background-image: url("images/bottom-parallax.avif");
+    min-height: 400px;
+}
+
+
+
+.my-intro{
+    letter-spacing: 10px;
+    padding: 12px 24px !important;
+    animation: opac 1.5s
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* My profession intro animation */
+.profession {
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    color: #597f92;
+  }
+  @keyframes border {
+       from {width: 0px;}
+       to {width:100%}
+  }
+  
+  .profession:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: #88c3e0;  
+    -webkit-animation-name: border; /* For Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* For Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards; /* For Safari 4.0 - 8.0 */
+    animation-name: border;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+.about-me-left{
+    padding: 12px 24px !important;
+    float: left;
+    width: 49.99999%
+}
+
+
+.myName {
+    font-size: 30px;
+}
+
+.skills {
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.welcome {
+    padding-top: 125px;
+}
+
+#message-box {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 5em;
+    padding-right: 2em;
+
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    word-spacing: 50px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icons {
+    height: 105px;
+    width: auto;
+}
+
+.resume {
+    color: gray;
+    text-decoration: none;
+}
+
+.copyright {
+    color: white;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.projects-left,
+.projects-right {
+    padding: 25px;
+}
+
+.project-thumbnail {
+    height: 20em;
+    opacity: 0.6;
+    filter: grayscale(60%);
+    -webkit-filter: grayscale(60%);
+}
+
+.project-thumbnail:hover {
+    opacity: 0.8;
+    filter: grayscale(10%);
+    -webkit-filter: grayscale(35%);
+}
+
+.project-description {
+    display: flex;
+    justify-content: center;
+}
+
+.lets-connect-details {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px
+}
+
+.phone,.email {
+    text-decoration: none;
+    color: grey;
+}
+
+
+/* affects profile photo width of photo */
+.my-image {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.6
+}
+
+.my-image:hover{
+    opacity: 1
+}
+
+.to-the-top{
+    opacity: 0.7
+}
+
+.to-the-top:hover{
+    opacity: 0.9
+}
+
+
+/* Affects NavBar Button decorations */
+.navbar-button-decor {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer; 
+    white-space: nowrap
+}
+
+/* Affects to the top hover opacity */
+.navbar-button-decor:hover {
+    color: #000 !important;
+    background-color: #ccc !important
+}
+
+.parallax-separator {
+    position: relative
+}
+
+.form-input {
+    padding: 10px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+
+.navigation-bar{
+    width: 100%;
+    overflow: hidden;
+    /* Added if opting to center alignment */
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+/* NAVBAR decoration of buttons */
+.navigation-bar .navigation-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+
+/* This affects the drop down menu without it the bar goes horizontal */
+.navigation-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+
+/* AFFECTS THE SKILLSET SECTION */
+.row-setting:after,
+.row-setting:before{
+    content: "";
+    display: table;
+    clear: both
+}
+
+.row-setting{
+    margin: 0 -16px 8px -16px
+}
+
+.skill-float {
+    float: left;
+    width: 100%
+}
+
+/* MEDIA QUERIES!!!! */
+
+/* Mobile Settings */
+@media (max-width:500px) and (min-width:320px){
+    .my-intro{
+        font-size: 5px;
+        letter-spacing: 5px;
+    }
+    .profession{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:600px) {
+
+    #myNavbar{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        width: 200%;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-thumbnail {
+        height: 25em;
+        width: 20em;
+    }
+    .bottom-nav {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+
+    .icons {
+        height: 10vh;
+    }
+
+    /* Affects photo in mobile query */
+    .my-image {
+        max-width: 75%;
+        height: auto
+    }
+
+    /* Affects padding on the about me paragraph */
+    .welcome {
+        padding-top: 5px;
+    }
+
+
+    /* HIDES NAVBAR 
+    Hides Middle Name and navbar
+    on Mobile */
+    .middle-name, .navbar-mobile {
+        display: none !important
+    }
+
+.my-info{
+    font-size: 12px !important;
+}
+
+}
+
+@media (min-width:601px) {
+
+    /* Skill Set Settings */
+    .skill-float {
+        width: 24.99999%
+    }
+
+    /* This affects the ABOUT ME section */
+    .description {
+        width: 49.99999%
+    }
+
+
+}
+
+
+/* Hides NavBar and adds fa fa bars/decorates them/ and lines them up on Moble */
+.hide-mobile {
+    display: none
+}
+
+/* Width on the let's connect section */
+.contact-me {
+    width: 66.66666%
+}
+
+/* Displays the buttons in the dropdown on mobile */
+
+ .mobile-drop-menu{
+    display: block !important
+}
+
+
+/* _________________________________________ */
+
+/* NAV BAR MENU DISAPPEARS WITHIN THIS QUERY */
+@media (max-width:767px) and (min-width:601px) {
+    .bottom-nav {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .icons {
+        height: 10vh;
+    }
+    /* This hides the fa fa bars on this window size */
+    .hide-medium{
+    display:none!important
+}
+    .middle-name{
+        display: none;
+    }
+
+}
+
+/* ___________________________________ */
+
+/* This query affects the drop down menu showing up on this window size */
+
+/* We could probably get rid of this line and set it to a broader query it just hides the bars within a media query */
+@media (min-width:767px) {
+    .hide-medium{
+        display: none !important
+    }
+}
+
+
+
+
+
+/* !!!!END OF MEDIA QUERIES!!! */
+
+
+
+
+
+/* This affects parallax content alignment */
+/* May be able to combinie with above class */
+.parallax-content-align {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+/* This moves the Nav bar with the page */
+.top-section {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0
+}
+
+
+/* Name, Email, Message padding*/
+.row-setting, 
+.row-setting>.half-input {
+    padding: 0 8px
+}
+
+
+
+/* These dropdown the dropbox menu 
+MAY NOT NEED THIS */
+.animate-top {
+    position: relative;
+    animation: animatetop 0.7s
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+
+/* Let's Connect font size and margin */
+.my-info {
+    font-size: 18px;
+    margin-bottom: 16px;
+    margin-right: 16px !important
+}
+
+
+/* Affects the font for the following
+intro/ the numbers font/ icons on the let's connect icons/ icons on the bottom */
+.xlarge-font {
+    font-size: 24px !important
+}
+
+/* Affects Portfolio and Contact font size */
+.parallax-title {
+    font-size: 36px !important;
+    color: #fff !important;
+    letter-spacing: 10px;
+    
+}
+
+/* This centers the following
+ the intro/ about me/ name/ skillset/my work and my work description/ to the top button*/
+.center {
+    text-align: center !important
+}
+
+
+/* May affect message box/ input forms may not */
+.input-border {
+    border: 1px solid #ccc 
+}
+
+
+.skillset-description{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+
+
+/* This affects 
+to the top button width
+the let's connect details with the icons margin */
+.my-info-margin {
+    margin-right: 16px !important
+}
+
+.description {
+    padding: 12px 24px !important;
+    float: left;
+    width: 49.99999%
+}
+
+
+
+/* Affects the padding about the contact details */
+
+/* Affects padding for 
+ About Me/
+My work/
+Let's Connect
+To the top button  */
+#about, #portfolio, #contact {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+
+
+/* Affects Send Message button */
+.send-message-button {
+    float: right;
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+
+
+
+/* Colors */
+
+
+/* THIS AFFECTS THE STYLE OF THE NAVBAR */
+
+.navbar-scroll-style{
+    color: #000 !important;
+    background-color: rgba(172, 172, 172, 0.8);
+}
+
+/* Affects intro */
+.background-support{
+    color: #fff;
+    background-color: #000 
+}
+
+
+/* Affects to the top button background  */
+.to-the-top-bg {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+/* Affects background and color in skillset */
+
+.skillset-decor {
+    color: #fff !important;
+    background-color: #616161 !important;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important
+}
+
+.bottom-container{
+    padding: 25px 0px;
+}
+
+
+/* Affects the hover color over the Let's Connect icons */
+.fafa-hover:hover {
+    color: lightgrey !important
+}
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 1.25em;
+}
+
+::-webkit-scrollbar-track {
+    background: #616161;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(187, 183, 183);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(187, 183, 183, 0.6);
+}
