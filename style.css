@@ -23,7 +23,7 @@ html {
     background-color: black;
 }
 
-/* Create a Parallax/Background Scrolling Effect */
+/* Parallax/Background Scrolling Effect */
 .top-parallax, .middle-parallax, .bottom-parallax {
     background-attachment: fixed;
     background-position: center;
@@ -302,6 +302,8 @@ html {
 
 /* Mobile Settings */
 @media (max-width:500px) and (min-width:320px){
+
+
     .my-intro{
         font-size: 5px;
         letter-spacing: 5px;
@@ -309,6 +311,20 @@ html {
     .profession{
         font-size: 20px;
     }
+
+    /* May delete later */
+    .top-parallax, .middle-parallax, .bottom-parallax{
+        background-image: none;
+    }
+
+    .top-parallax-mobile, .middle-parallax-mobile, .bottom-parallax-mobile{
+        background-image: url('images/top-parallax.avif');
+        min-height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
 
 }
 
@@ -318,6 +334,11 @@ html {
         display: flex;
         justify-content: space-between;
         flex-direction: row-reverse;
+    }
+
+    /* May delete later */
+    .top-parallax-mobile, .middle-parallax-mobile, .bottom-parallax-mobile{
+        display:none;
     }
     .about-me{
         display: flex;
