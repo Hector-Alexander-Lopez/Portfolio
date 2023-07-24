@@ -309,23 +309,6 @@ html {
     .profession{
         font-size: 20px;
     }
-
-    /* Still images for IOS  */
-
-    .top-parallax-mobile{
-        background-image: url("images/top-parallax.avif");
-    }
-
-    .middle-parallax-mobile{
-        background-image: url("images/middle-parallax.avif");
-    }
-
-
-    .bottom-parallax-mobile{
-        background-image: url("images/bottom-parallax.avif");
-
-    }
-
 }
 
 @media (max-width:600px) {
