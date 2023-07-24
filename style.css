@@ -324,7 +324,7 @@ html {
     /* Third image (Contact) */
     .bottom-parallax {
         background-image: url("images/bottom-parallax.avif");
-    }
+    } 
 }
 
 @media (max-width:600px) {
