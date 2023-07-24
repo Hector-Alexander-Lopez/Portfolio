@@ -318,11 +318,22 @@ html {
     } */
 
     .top-parallax-mobile, .middle-parallax-mobile, .bottom-parallax-mobile{
-        background-image: url('images/top-parallax.avif');
         min-height: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .top-parallax-mobile{
+        background-image: url('images/top-parallax.avif');
+    }
+
+    .middle-parallax-mobile{
+        background-image: url('images/middle-parallax.avif');
+    }
+
+    .bottom-parallax-mobile{
+        background-image: url('images/bottom-parallax.avif');
     }
 
 
@@ -340,7 +351,7 @@ html {
     .top-parallax-mobile, .middle-parallax-mobile, .bottom-parallax-mobile{
         display:none;
     } */
-    
+
     .about-me{
         display: flex;
         flex-direction: column;
