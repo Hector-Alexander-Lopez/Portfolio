@@ -309,9 +309,8 @@ html {
     .profession{
         font-size: 20px;
     }
-    .top-section{
+    #home{
         background-image: url('images/top-parallax.avif');
-        background-color: rgb(73, 73, 73);
     }
 }
 
