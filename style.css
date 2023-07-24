@@ -32,21 +32,21 @@ html {
 }
 
 /* First image (Logo. Full height) */
-.top-parallax {
+.top-parallax{
     background-image: url("images/top-parallax.avif");
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
-.middle-parallax {
+.middle-parallax{
     background-image: url("images/middle-parallax.avif");
-    min-height: 400px;
+    min-height: 100%;
 }
 
 /* Third image (Contact) */
-.bottom-parallax {
+.bottom-parallax{
     background-image: url("images/bottom-parallax.avif");
-    min-height: 400px;
+    min-height: 100%;
 }
 
 
@@ -311,20 +311,21 @@ html {
     }
 
     /* Still images for IOS  */
-    /* First image (intro) */
-    .top-parallax {
-        background-image: url("images/top-parallax.avif")
+
+    .top-parallax-mobile{
+        background-image: url("images/top-parallax.avif");
     }
-    
-    /* Second image (Portfolio) */
-    .middle-parallax {
-        background-image: url("images/middle-parallax.avif")
+
+    .middle-parallax-mobile{
+        background-image: url("images/middle-parallax.avif");
     }
-    
-    /* Third image (Contact) */
-    .bottom-parallax {
+
+
+    .bottom-parallax-mobile{
         background-image: url("images/bottom-parallax.avif");
-    } 
+
+    }
+
 }
 
 @media (max-width:600px) {
