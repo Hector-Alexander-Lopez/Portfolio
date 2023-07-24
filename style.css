@@ -321,6 +321,10 @@ html {
     .bottom-parallax{
         background-image: url('images/bottom-parallax.avif');
     }
+
+    .parallax-content-align {
+        position: fixed;
+    }
 }
 
 @media (max-width:600px) {
@@ -459,7 +463,6 @@ html {
 
 
 /* This affects parallax content alignment */
-/* May be able to combinie with above class */
 .parallax-content-align {
     position: absolute;
     display: flex;
@@ -487,8 +490,7 @@ html {
 
 
 
-/* These dropdown the dropbox menu 
-MAY NOT NEED THIS */
+/* These dropdown the dropbox menu */
 .animate-top {
     position: relative;
     animation: animatetop 0.7s
