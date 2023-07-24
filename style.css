@@ -309,6 +309,22 @@ html {
     .profession{
         font-size: 20px;
     }
+
+    /* Still images for IOS  */
+    /* First image (intro) */
+    .top-parallax {
+        background-image: url("images/top-parallax.avif")
+    }
+    
+    /* Second image (Portfolio) */
+    .middle-parallax {
+        background-image: url("images/middle-parallax.avif")
+    }
+    
+    /* Third image (Contact) */
+    .bottom-parallax {
+        background-image: url("images/bottom-parallax.avif");
+    }
 }
 
 @media (max-width:600px) {
@@ -364,9 +380,9 @@ html {
         display: none !important
     }
 
-.my-info{
-    font-size: 12px !important;
-}
+    .my-info{
+     font-size: 12px !important;
+    }
 
 }
 
