@@ -309,9 +309,7 @@ html {
     .profession{
         font-size: 20px;
     }
-    #home{
-        background-image: url('images/top-parallax.avif');
-    }
+
 }
 
 @media (max-width:600px) {
