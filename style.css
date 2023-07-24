@@ -310,7 +310,7 @@ html {
         font-size: 20px;
     }
 
-    .top-parallax-mobile{
+    /* .top-parallax-mobile{
         background-image: url('images/top-parallax.avif');
     }
 
@@ -320,10 +320,17 @@ html {
 
     .bottom-parallax{
         background-image: url('images/bottom-parallax.avif');
-    }
+    } */
 
     .parallax-content-align {
         position: fixed;
+    }
+
+    .top-parallax-mobile, .middle-parallax-mobile, .bottom-parallax-mobile{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        top: 0;
     }
 }
 
