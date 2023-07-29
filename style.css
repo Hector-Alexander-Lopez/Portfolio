@@ -313,12 +313,12 @@ html {
         font-size: 20px;
     }
 
-    .top-parallax-mobile, .middle-parallax-mobile, .bottom-parallax-mobile{
+    /* .top-parallax-mobile, .middle-parallax-mobile, .bottom-parallax-mobile{
         min-height: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-    }
+    } */
 /* 
     .top-parallax-mobile{
         background-image: url('images/top-parallax.avif');
