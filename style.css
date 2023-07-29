@@ -31,21 +31,21 @@ html {
     background-size: cover;
 }
 
-/* First image (Logo. Full height) */
+/* First image  */
 .top-parallax{
     background-image: url("images/city-blurred.jpg");
     min-height: 100%;
 }   
 
-/* Second image (Portfolio) */
+/* Second image */
 .middle-parallax{
-    background-image: url("images/middle-parallax.avif");
+    background-image: url("images/subway.jpg");
     min-height: 100%;
 }
 
-/* Third image (Contact) */
+/* Third image*/
 .bottom-parallax{
-    background-image: url("images/bottom-parallax.avif");
+    background-image: url("images/laptop-city.jpg");
     min-height: 100%;
 }
 
