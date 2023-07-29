@@ -35,7 +35,7 @@ html {
 .top-parallax{
     background-image: url("images/top-parallax.avif");
     min-height: 100%;
-}
+}   
 
 /* Second image (Portfolio) */
 .middle-parallax{
@@ -108,7 +108,7 @@ html {
 }
 
 .skills {
-    color: #8c90a5;
+    color: grey;
     font-size: 7vh;
     display: flex;
     justify-content: center;
@@ -628,7 +628,7 @@ To the top button  */
 
 .skillset-decor {
     color: #d1cdcd !important;
-    background-color: #6c7791 !important;
+    background-color: grey !important;
     padding-top: 16px !important;
     padding-bottom: 16px !important
 }
