@@ -319,7 +319,7 @@ html {
         background-repeat: no-repeat;
         background-size: cover;
     }
-
+/* 
     .top-parallax-mobile{
         background-image: url('images/top-parallax.avif');
     }
@@ -330,7 +330,7 @@ html {
 
     .bottom-parallax-mobile{
         background-image: url('images/bottom-parallax.avif');
-    }
+    } */
 
     .skills{
         font-size: 40px;
