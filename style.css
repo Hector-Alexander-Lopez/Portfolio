@@ -33,7 +33,7 @@ html {
 
 /* First image (Logo. Full height) */
 .top-parallax{
-    background-image: url("images/top-parallax.webP");
+    background-image: url("images/top-parallax.png");
     min-height: 100%;
 }   
 
