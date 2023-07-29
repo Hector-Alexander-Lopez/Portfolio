@@ -108,7 +108,8 @@ html {
 }
 
 .skills {
-    font-size: 5vh;
+    color: #8c90a5;
+    font-size: 7vh;
     display: flex;
     justify-content: center;
 
@@ -312,11 +313,6 @@ html {
         font-size: 20px;
     }
 
-    /* May delete later */
-    /* .top-parallax, .middle-parallax, .bottom-parallax{
-        background-image: none;
-    } */
-
     .top-parallax-mobile, .middle-parallax-mobile, .bottom-parallax-mobile{
         min-height: 100%;
         background-position: center;
@@ -347,10 +343,6 @@ html {
         flex-direction: row-reverse;
     }
 
-    /* May delete later
-    .top-parallax-mobile, .middle-parallax-mobile, .bottom-parallax-mobile{
-        display:none;
-    } */
 
     .about-me{
         display: flex;
@@ -635,8 +627,8 @@ To the top button  */
 /* Affects background and color in skillset */
 
 .skillset-decor {
-    color: #fff !important;
-    background-color: #616161 !important;
+    color: #d1cdcd !important;
+    background-color: #6c7791 !important;
     padding-top: 16px !important;
     padding-bottom: 16px !important
 }
