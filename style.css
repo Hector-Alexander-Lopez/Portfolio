@@ -166,15 +166,15 @@ html {
 
 .project-thumbnail {
     height: 20em;
-    opacity: 0.6;
+    opacity: 0.9;
     filter: grayscale(60%);
-    -webkit-filter: grayscale(60%);
+    -webkit-filter: grayscale(40%);
 }
 
 .project-thumbnail:hover {
-    opacity: 0.8;
+    opacity: 0.6;
     filter: grayscale(10%);
-    -webkit-filter: grayscale(35%);
+    -webkit-filter: grayscale(15%);
 }
 
 .project-description {
@@ -455,7 +455,6 @@ html {
 
 /* This query affects the drop down menu showing up on this window size */
 
-/* We could probably get rid of this line and set it to a broader query it just hides the bars within a media query */
 @media (min-width:767px) {
     .hide-medium{
         display: none !important
