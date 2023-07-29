@@ -433,8 +433,6 @@ html {
 }
 
 
-/* _________________________________________ */
-
 /* NAV BAR MENU DISAPPEARS WITHIN THIS QUERY */
 @media (max-width:767px) and (min-width:601px) {
     .bottom-nav {
@@ -455,7 +453,7 @@ html {
 
 }
 
-/* ___________________________________ */
+
 
 /* This query affects the drop down menu showing up on this window size */
 
@@ -465,6 +463,18 @@ html {
     }
 }
 
+/* ADDED 7/29/23 */
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+only screen and (max-width: 1024px) and (-webkit-max-device-pixel-ratio: 2) {
+  .top-parallax,
+  .middle-parallax,
+  .bottom-parallax {
+    background-attachment: scroll;
+  }
+}
+
+/* _________________________________ */
 
 
 
