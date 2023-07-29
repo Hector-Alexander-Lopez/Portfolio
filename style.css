@@ -332,6 +332,10 @@ html {
         background-image: url('images/bottom-parallax.avif');
     }
 
+    .skills{
+        font-size: 40px;
+    }
+
 
 }
 
