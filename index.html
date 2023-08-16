@@ -10,6 +10,12 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
@@ -18,25 +24,56 @@
 
   <!-- Navbar (sit on top) -->
   <div class="top-section">
-    <div class="navigation-bar" id="myNavbar">
-      <a class="navigation-bar-item  navbar-button-decor hide-medium  toggle-align" href="javascript:void(0);"
-        onclick="toggleFunction()" title="Toggle Navigation Menu">
-        <i class="fa fa-bars"></i>
-      </a>
-      <a href="#home" class="navigation-bar-item navbar-button-decor">HOME</a>
-      <a href="#about" class="navigation-bar-item navbar-button-decor navbar-mobile">
-        <i class="fa fa-user"></i> ABOUT</a>
-      <a href="#portfolio" class="navigation-bar-item navbar-button-decor navbar-mobile">
-        <i class="fa fa-th"></i>PROJECTS</a>
-      <a href="#contact" class="navigation-bar-item navbar-button-decor navbar-mobile">
-        <i class="fa fa-envelope"></i>CONTACT</a>
+    <div class="navigation-bar-left">
+      <div class="navigation-bar" id="myNavbar">
+        <a class="navigation-bar-item  navbar-button-decor hide-medium  toggle-align" href="javascript:void(0);"
+          onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="navigation-bar-item navbar-button-decor">HOME</a>
+        <a href="#about" class="navigation-bar-item navbar-button-decor navbar-mobile">
+          <i class="fa fa-user"></i> ABOUT</a>
+        <a href="#portfolio" class="navigation-bar-item navbar-button-decor navbar-mobile">
+          <i class="fa fa-th"></i>PROJECTS</a>
+        <a href="#contact" class="navigation-bar-item navbar-button-decor navbar-mobile">
+          <i class="fa fa-envelope"></i>CONTACT</a>
+
+        <div class="navigation-bar-right navbar-mobile">
+          <a class="navigation-bar-item navbar-button-decor navbar-mobile"
+            href="https://www.linkedin.com/in/hectoralexanderlopez" target="_blank"><i class="fa fa-linkedin"
+              style="font-size:20px;"></i></a>
+          <a class="navigation-bar-item navbar-button-decor navbar-mobile"
+            href="https://github.com/Hector-Alexander-Lopez" target="_blank"><i class="fa fa-github"
+              style="font-size:20px"></i> </a>
+          <a class="navigation-bar-item navbar-button-decor navbar-mobile" href="https://twitter.com/Hector_A_Lopez3"
+            target="_blank"><i class="fa-brands fa-x-twitter" style="font-size:20px"></i></a>
+          <a class="navigation-bar-item navbar-button-decor navbar-mobile" style="font-size:10px"
+            href=" mailto:HectorAlexanderLopez3@gmail.com"><i class="fa fa-google fa-fw my-info-margin"
+              style="font-size:20px; padding-top: 3.25px;"></i>
+          </a>
+        </div>
+      </div>
     </div>
 
     <!-- Navbar on small screens -->
     <div id="navDemo" class="navigation-bar-block navbar-scroll-style  hide-medium hide-mobile">
       <a href="#about" class="navigation-bar-item navbar-button-decor" onclick="toggleFunction()">ABOUT</a>
       <a href="#portfolio" class="navigation-bar-item navbar-button-decor" onclick="toggleFunction()">MY PROJECTS</a>
-      <a href="#contact" class="navigation-bar-item navbar-button-decor" onclick="toggleFunction()">CONTACT</a>
+      <!-- <a href="#contact" class="navigation-bar-item navbar-button-decor" onclick="toggleFunction()">CONTACT</a> -->
+      <div class="toggle-icons">
+        <a href="https://www.linkedin.com/in/hectoralexanderlopez" target="_blank"
+          class="navigation-bar-item navbar-button-decor" onclick="toggleFunction()"><i class="fa fa-linkedin"
+            style="font-size:20px"></i> </a>
+        <a href="https://twitter.com/Hector_A_Lopez3" target="_blank" class="navigation-bar-item navbar-button-decor"
+          onclick="toggleFunction()"><i class="fa-brands fa-x-twitter" style="font-size:20px"></i></a>
+        <a href="https://github.com/Hector-Alexander-Lopez" target="_blank"
+          class="navigation-bar-item navbar-button-decor" onclick="toggleFunction()"><i class="fa fa-github"
+            style="font-size:20px"></i> </a>
+        <a href="mailto:HectorAlexanderLopez3@gmail.com" class="navigation-bar-item navbar-button-decor"
+          onclick="toggleFunction()"><i class="fa fa-google fa-fw my-info-margin" style="font-size:20px"></i> </a>
+      </div>
+
+
     </div>
   </div>
 

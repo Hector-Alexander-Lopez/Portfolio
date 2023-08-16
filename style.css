@@ -238,6 +238,19 @@ html {
     background-color: #ccc !important
 }
 
+.navigation-bar-right{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 0;
+} 
+
+
+.toggle-icons{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
 .parallax-separator {
     position: relative
 }
