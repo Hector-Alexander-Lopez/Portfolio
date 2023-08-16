@@ -251,6 +251,12 @@ html {
     justify-content: space-around;
     flex-direction: row;
 }
+
+.toggle-icons > a{
+    display: flex;
+    justify-content: center;
+}
+
 .parallax-separator {
     position: relative
 }
